@@ -1,0 +1,69 @@
+.post-content h1 {
+    color: #222;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 123.077% */
+
+  }
+  
+  .post-content h2 {
+    color: #222;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 119.048% */
+  }
+  
+  .post-content p {
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+  }
+  
+  .post-content strong {
+    font-weight: bold;
+  }
+  
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+    
+  .post-content ul, ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .post-content li{
+    position: relative;
+    padding-left: 25px;
+  
+  }
+  .post-content li::before {
+        content: "";
+        min-width: 10px !important;
+        min-height: 10px !important;
+        width: 12px;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 4px;
+        height: 12px;
+        border-radius: 50%;
+        background: #222;
+  }
+  .post-content  blockquote {
+    padding-left: 20px;
+    margin: 10px 0px;
+    margin-left: 20px;
+    border-left: 2px solid #a2a2fd;
+    color: #a2a2fd;
+  }
+  .post-content em {
+    display: inline-flex;
+    padding-bottom: 10px;
+  }
